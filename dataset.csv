@@ -1,0 +1,14 @@
+import pandas as pd
+
+def load_dataset():
+    data = {
+        "username": ["user1", "user2", "user3", "user4", "user5"],
+        "text": [
+            "I love this new movie! It's amazing 😍",
+            "Feeling so sad and depressed today...",
+            "Just won a hackathon, I’m so excited!!!",
+            "Traffic was horrible. Worst day ever.",
+            "What a peaceful and beautiful morning 🌅"
+        ]
+    }
+    return pd.DataFrame(data)
